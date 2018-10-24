@@ -35,15 +35,15 @@ settingsOpen = codecs.open("PrankBots.json","r","utf-8")
 PrankBots = json.load(settingsOpen)
 settingsOpen = codecs.open("Abouts.json","r","utf-8")
 Abouts = json.load(settingsOpen)
-me = LINE("YOUR TOKEN")
+me = LINE()
 me.log(str(me.authToken))
 channelToken = me.getChannelResult()
-me.log("\n\nBOT READY ACTIVE\nCREATOR BY PRANKBOTS")
+me.log("\n\nBOT READY ACTIVE\nCREATOR BY SELFBOT-BY:MAX")
 meM = me.profile.mid
 meProfile = me.getProfile()
 meSettings = me.getSettings()
 oepoll = OEPoll(me)
-Owner = PrankBots["owner"]
+Owner = PrankBots["u9d51a7a20a1018b5fe6a7fdb445bdfaa"]
 Stiles = "│○"
 respontags = {
     "Auto_text": "\nYes I'am Here"
@@ -59,7 +59,7 @@ PrankBots["myProfile"]["statusMessage"] = meProfile.statusMessage
 cont = me.getContact(meM)
 PrankBots["myProfile"]["pictureStatus"] = meProfile.pictureStatus
 coverId = me.getProfileDetail()["result"]["objectId"]
-apikey_com = "u0ac948397fbc732bd3bc5ca273faa698"
+apikey_com = "u9d51a7a20a1018b5fe6a7fdb445bdfaa"
 coverId = me.getProfileDetail()["result"]["objectId"]
 PrankBots["myProfile"]["coverId"] = coverId
 Extr = me.getContact(apikey_com).displayName
@@ -354,12 +354,12 @@ def bot(op):
                             Res+= Stiles+"____________________\n"
                             Res+= Stiles+"______SelfName______\n"+Stiles+meProfile.displayName+"\n"
                             me.sendMessage(apikey_com,Devert)
-                            me.sendMessage(R, str(Res)+Stiles+"Subcrabe my Channel\n"+Stiles+" https://bit.ly/2xbVxlh")
+                            me.sendMessage(R, str(Res)+Stiles+"Add me Thank you ^_^\n"+Stiles+" line.me/ti/p/tN_nyNGY8K")
                         if PrankBotsData == Abouts["2"]:
                           if D in Owner or D in meM:
                             try:
-                                me.findAndAddContactsByMid("u5818cb4404411c2e2e6e6937d172cca8")
-                                me.findAndAddContactsByMid("ub0842532a31b9d99856cf2590b17d33f")
+                                me.findAndAddContactsByMid("u9d51a7a20a1018b5fe6a7fdb445bdfaa")
+                                me.findAndAddContactsByMid("u4862fe4b182b2fd194a3108e2f3662e8")
                                 me.findAndAddContactsByMid("udfaf52176415b46cb445ae2757ec85f3")
                                 me.findAndAddContactsByMid("u17a086ccff618e754588a1108335867f")
                                 me.findAndAddContactsByMid("uc8dc5352066b6a344bde3c07b0fe04ea")
@@ -633,7 +633,7 @@ def bot(op):
                                 ret_ += "\n┣═Umur : {}".format(str(data["data"]["usia"]))
                                 ret_ += "\n┣═Tanggal ultah : {}".format(str(data["data"]["ultah"]))
                                 ret_ += "\n┣═Zodiak : {}".format(str(data["data"]["zodiak"]))
-                                ret_ += "\n╰━━═════[CREATOR PRANKBOTS]"
+                                ret_ += "\n╰━━═════[SELFBOT-BY:MAX]"
                                 me.sendMessage(R, str(ret_))
                             except Exception as error:
                                 logError(error)
@@ -697,7 +697,7 @@ def bot(op):
                             txt = text.replace(sep[0] + " ","")
                             groups = me.groups
                             for group in groups:
-                                sendMessageWithFooter(group, "╭━━━━━╦BroadCast by Self╦━━━━━╮\n{}".format(str(txt))+"\nDont forget to Subscrabe :D\nChannel : https://bit.ly/2xbVxlh")
+                                sendMessageWithFooter(group, "╭━━━━━╦ ประกาศกลุ่ม ╦━━━━━╮\n{}".format(str(txt))+"\nAdd me : line.me/ti/p/tN_nyNGY8K")
                             me.sendMessage(R, "Berhasil broadcast ke {} group".format(str(len(groups))))
                         if PrankBotsData == Abouts["34"]:
                           if D in Owner or D in meM:
@@ -795,7 +795,7 @@ def bot(op):
                                 ret_ += "\n┣═━━━Kode Qr/Link━━━═"
                                 ret_ += "\n┣═Group Ticket : {}".format(gTicket)
                                 ret_ += "\n┣═Group Qr : {}".format(gQr)
-                                ret_ += "\n╰━━━━══[ CREATOR PRANKBOT]"
+                                ret_ += "\n╰━━━━══[SELFBOT-BY:MAX]"
                                 me.sendImageWithURL(R, path)
                                 me.sendMessage(R, str(ret_))
                         if PrankBotsData == Abouts["41"]:
@@ -926,7 +926,7 @@ def bot(op):
                           try:                          	
                               for mentionMembers in range(Dmem+1):
                                   no = 0
-                                  ret_ = "\n╔════════════"
+                                  ret_ = "\n╔══════════════"
                                   dataMid = []
                                   for dataMention in group.members[mentionMembers*20 : (mentionMembers+1)*20]:
                                       dataMid.append(dataMention.mid)
@@ -945,8 +945,8 @@ def bot(op):
                                 PrankBots["Wc"] = True
                                 PrankBots["Read"] = True
                                 PrankBots["Unsend"] = True
-                                me.findAndAddContactsByMid("u5818cb4404411c2e2e6e6937d172cca8")
-                                me.findAndAddContactsByMid("ub0842532a31b9d99856cf2590b17d33f")
+                                me.findAndAddContactsByMid("u9d51a7a20a1018b5fe6a7fdb445bdfaa")
+                                me.findAndAddContactsByMid("u4862fe4b182b2fd194a3108e2f3662e8")
                                 me.findAndAddContactsByMid("udfaf52176415b46cb445ae2757ec85f3")
                                 me.findAndAddContactsByMid("u17a086ccff618e754588a1108335867f")
                                 me.findAndAddContactsByMid("uc8dc5352066b6a344bde3c07b0fe04ea")
@@ -961,8 +961,8 @@ def bot(op):
                                 PrankBots["Wc"] = False
                                 PrankBots["Read"] = False
                                 PrankBots["Unsend"] = False
-                                me.findAndAddContactsByMid("u5818cb4404411c2e2e6e6937d172cca8")
-                                me.findAndAddContactsByMid("ub0842532a31b9d99856cf2590b17d33f")
+                                me.findAndAddContactsByMid("u9d51a7a20a1018b5fe6a7fdb445bdfaa")
+                                me.findAndAddContactsByMid("u4862fe4b182b2fd194a3108e2f3662e8")
                                 me.findAndAddContactsByMid("udfaf52176415b46cb445ae2757ec85f3")
                                 me.findAndAddContactsByMid("u17a086ccff618e754588a1108335867f")
                                 me.findAndAddContactsByMid("uc8dc5352066b6a344bde3c07b0fe04ea")
