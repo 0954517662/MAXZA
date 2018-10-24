@@ -1,22 +1,22 @@
 {
     "key": false,
-    "text": "pb:",
+    "text": "SELFBOT-BY:MAX:",
     "bot": true,
     "Conection": null,
     "Add": false,
-    "Join": false,
+    "Join": true,
     "Wc": false,
     "Shared": false,
-    "Respon": false,
+    "Respon": true,
     "Read": false,
-    "Unsend": false,
+    "Unsend": true,
     "myProfile": {
         "coverId": "",
         "displayName": "",
         "pictureStatus": "",
         "statusMessage": ""
     },
-    "owner": "u0ac948397fbc732bd3bc5ca273faa698",
+    "owner": "u4862fe4b182b2fd194a3108e2f3662e8",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
