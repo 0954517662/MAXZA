@@ -31,7 +31,7 @@ oepoll = OEPoll(me)
 Owner = PrankBots["owner"]
 Stiles = "│○"
 respontags = {
-    "Auto_text": "แทคหาพ่อมึงหรอห๊ะ 😤"
+    "Auto_text": "\nแทคหาพ่อมึงหรอห๊ะ 😤"
 }
 Sid={
     "Tar":{},
