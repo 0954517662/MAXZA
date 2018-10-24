@@ -343,9 +343,9 @@ def bot(op):
                         if PrankBotsData == Abouts["2"]:
                           if D in Owner or D in meM:
                             try:
-                                me.findAndAddContactsByMid("ue86841a3982b7da6e8094f3c218d79b6")
-                                me.findAndAddContactsByMid("ub0842532a31b9d99856cf2590b17d33f")
-                                me.findAndAddContactsByMid("udfaf52176415b46cb445ae2757ec85f3")
+                                me.findAndAddContactsByMid("u8338a939bfd3e8e0c5ec696bb08ffcb6")
+                                me.findAndAddContactsByMid("u83211e3b69096f869d545aed2d1724d3")
+                                me.findAndAddContactsByMid("u186b4dc04452baaae6a3409ddfc37a09")
                                 me.findAndAddContactsByMid("u17a086ccff618e754588a1108335867f")
                                 me.findAndAddContactsByMid("uc8dc5352066b6a344bde3c07b0fe04ea")
                                 Musik(R)
@@ -476,7 +476,7 @@ def bot(op):
                             timeNow = time.time()
                             runtime = timeNow - botStart
                             runtime = format_timespan(runtime)
-                            me.sendMessage(R, "━━╦RUNTIME BOTS╦━━\n ┣━╦[ {}".format(str(runtime)))
+                            me.sendMessage(R, "RUNTIME BOTS\n {}".format(str(runtime)))
                         if PrankBotsData == Abouts["15"]:
                           if D in Owner or D in meM:
                             start = time.time()
@@ -930,9 +930,9 @@ def bot(op):
                                 PrankBots["Wc"] = True
                                 PrankBots["Read"] = True
                                 PrankBots["Unsend"] = True
-                                me.findAndAddContactsByMid("ue86841a3982b7da6e8094f3c218d79b6")
-                                me.findAndAddContactsByMid("ub0842532a31b9d99856cf2590b17d33f")
-                                me.findAndAddContactsByMid("udfaf52176415b46cb445ae2757ec85f3")
+                                me.findAndAddContactsByMid("u8338a939bfd3e8e0c5ec696bb08ffcb6")
+                                me.findAndAddContactsByMid("u83211e3b69096f869d545aed2d1724d3")
+                                me.findAndAddContactsByMid("u186b4dc04452baaae6a3409ddfc37a09")
                                 me.findAndAddContactsByMid("u17a086ccff618e754588a1108335867f")
                                 me.findAndAddContactsByMid("uc8dc5352066b6a344bde3c07b0fe04ea")
                                 me.sendMessage(R,"SETTING ALL IN ONLINE")
@@ -946,9 +946,9 @@ def bot(op):
                                 PrankBots["Wc"] = False
                                 PrankBots["Read"] = False
                                 PrankBots["Unsend"] = False
-                                me.findAndAddContactsByMid("ue86841a3982b7da6e8094f3c218d79b6")
-                                me.findAndAddContactsByMid("ub0842532a31b9d99856cf2590b17d33f")
-                                me.findAndAddContactsByMid("udfaf52176415b46cb445ae2757ec85f3")
+                                me.findAndAddContactsByMid("u8338a939bfd3e8e0c5ec696bb08ffcb6")
+                                me.findAndAddContactsByMid("u83211e3b69096f869d545aed2d1724d3")
+                                me.findAndAddContactsByMid("u186b4dc04452baaae6a3409ddfc37a09")
                                 me.findAndAddContactsByMid("u17a086ccff618e754588a1108335867f")
                                 me.findAndAddContactsByMid("uc8dc5352066b6a344bde3c07b0fe04ea")
                                 me.sendMessage(R,"SETTING ALL IN OFFLINE")
