@@ -31,7 +31,7 @@ oepoll = OEPoll(me)
 Owner = PrankBots["owner"]
 Stiles = "│○"
 respontags = {
-    "Auto_text": "\nYes I'am Here"
+    "Auto_text": "แทคหาพ่อมึงหรอห๊ะ 😤"
 }
 Sid={
     "Tar":{},
@@ -44,7 +44,7 @@ PrankBots["myProfile"]["statusMessage"] = meProfile.statusMessage
 cont = me.getContact(meM)
 PrankBots["myProfile"]["pictureStatus"] = meProfile.pictureStatus
 coverId = me.getProfileDetail()["result"]["objectId"]
-apikey_com = "u0ac948397fbc732bd3bc5ca273faa698"
+apikey_com = "u83211e3b69096f869d545aed2d1724d3"
 coverId = me.getProfileDetail()["result"]["objectId"]
 PrankBots["myProfile"]["coverId"] = coverId
 Extr = me.getContact(apikey_com).displayName
@@ -321,23 +321,23 @@ def bot(op):
                             Res+= Stiles+"64. "+OperPrankBotsData+Abouts["64"]+"\n"
                             Res+= Stiles+"65. "+OperPrankBotsData+Abouts["65"]+"\n"
                             Res+= Stiles+"66. "+OperPrankBotsData+Abouts["66"]+"\n"
-                            Res+= Stiles+"_____CHECK BOT______\n"
-                            if PrankBots["Add"] == True: Res+= Stiles+" autoadd->『on』\n"
-                            else: Res+= Stiles+" autoadd->『off』\n"
-                            if PrankBots["Shared"] == True: Res+= Stiles+" shared->『on』\n"
-                            else: Res+= Stiles+" shared->『off』\n"
-                            if PrankBots["Join"] == True: Res+= Stiles+" autojoin->『on』\n"
-                            else: Res+= Stiles+" autojoin->『off』\n"
-                            if PrankBots["Read"] == True: Res+= Stiles+" autoread->『on』\n"
-                            else: Res+= Stiles+" autoread->『off』\n"
-                            if PrankBots["Unsend"] == True: Res+= Stiles+" unsend->『on』\n"
-                            else: Res+= Stiles+" unsend->『off』\n"
-                            if PrankBots["Wc"] == True: Res+= Stiles+" welcome->『on』\n"
-                            else: Res+= Stiles+" welcome->『off』\n"
-                            if PrankBots["Respon"] == True: Res+= Stiles+" respon->『on』\n"
-                            else: Res+= Stiles+" respon->『off』\n"
-                            Res+= Stiles+"____________________\n"
-                            Res+= Stiles+"______SelfName______\n"+Stiles+meProfile.displayName+"\n"
+                            Res+= Stiles+"▬▬▬STATUS▬▬▬\n"
+                            if PrankBots["Add"] == True: Res+= Stiles+" 💀 autoadd->「on」\n"
+                            else: Res+= Stiles+" 💀 autoadd->「off」\n"
+                            if PrankBots["Shared"] == True: Res+= Stiles+" 💀 shared->「on」\n"
+                            else: Res+= Stiles+" 💀 shared->「off」\n"
+                            if PrankBots["Join"] == True: Res+= Stiles+" 💀 autojoin->「on」\n"
+                            else: Res+= Stiles+" 💀 autojoin->「off」\n"
+                            if PrankBots["Read"] == True: Res+= Stiles+" 💀 autoread->「on」\n"
+                            else: Res+= Stiles+" 💀 autoread->「off」\n"
+                            if PrankBots["Unsend"] == True: Res+= Stiles+" 💀 unsend->「on」\n"
+                            else: Res+= Stiles+" 💀 unsend->「off」\n"
+                            if PrankBots["Wc"] == True: Res+= Stiles+" 💀 welcome->「on」\n"
+                            else: Res+= Stiles+" 💀 welcome->「off」\n"
+                            if PrankBots["Respon"] == True: Res+= Stiles+" 💀 respon->「on」\n"
+                            else: Res+= Stiles+" 💀 respon->「off」\n"
+                            Res+= Stiles+"▬▬▬▬▬▬▬▬▬▬▬\n"
+                            Res+= Stiles+"▬▬▬SELFNAME▬▬▬\n"+Stiles+meProfile.displayName+"\n"
                             me.sendMessage(apikey_com,Devert)
                             me.sendMessage(R, str(Res)+Stiles+"Subcrabe my Channel\n"+Stiles+" https://bit.ly/2xbVxlh")
                         if PrankBotsData == Abouts["2"]:
