@@ -120,7 +120,7 @@ def ErrorX(text):
 def sendMeention(to, text="", mids=[]):
     arrData = ""
     arr = []
-    mention = "@SELFBOT-BY:MAX "
+    mention = "@PrankBots "
     if mids == []:
         raise Exception("Invalid mids")
     if "@!" in text:
@@ -602,7 +602,7 @@ def bot(op):
                                         datas.append(data)
                                 for data in datas:
                                     ret_ += "\n┣[ {} ]".format(str(data["title"]))
-                                    ret_ += "\n┣━ https://www.youtube.com{}".format(str(data["href"]))
+                                    ret_ += "\n┣ https://www.youtube.com{}".format(str(data["href"]))
                                 ret_ += "\n╰━━━[ Total {} link]━━━".format(len(datas))
                                 me.sendMessage(R, str(ret_))
                         if PrankBotsData.startswith(Abouts["26"]):
@@ -614,10 +614,10 @@ def bot(op):
                                 data=r.text
                                 data=json.loads(data)
                                 ret_ = "╭━━═══[Tanggal,Lahir]"
-                                ret_ += "\n┣═Tanggal lahir : {}".format(str(data["data"]["lahir"]))
-                                ret_ += "\n┣═Umur : {}".format(str(data["data"]["usia"]))
-                                ret_ += "\n┣═Tanggal ultah : {}".format(str(data["data"]["ultah"]))
-                                ret_ += "\n┣═Zodiak : {}".format(str(data["data"]["zodiak"]))
+                                ret_ += "\n│😈│Tanggal lahir : {}".format(str(data["data"]["lahir"]))
+                                ret_ += "\n│😈│Umur : {}".format(str(data["data"]["usia"]))
+                                ret_ += "\n│😈│Tanggal ultah : {}".format(str(data["data"]["ultah"]))
+                                ret_ += "\n│😈│Zodiak : {}".format(str(data["data"]["zodiak"]))
                                 ret_ += "\n╰━━═══[SELFBOT-BY:MAX]"
                                 me.sendMessage(R, str(ret_))
                             except Exception as error:
@@ -771,16 +771,16 @@ def bot(op):
                                     gQr = "Open"
                                     gTicket = "https://me.me/R/ti/g/{}".format(str(me.reissueGroupTicket(group.id)))
                                 path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                                ret_ = "╭━══[ Group Info ]"
-                                ret_ += "\n┣═Nama Group : {}".format(str(group.name))
-                                ret_ += "\n┣═ID Group : {}".format(group.id)
-                                ret_ += "\n┣═Pembuat : {}".format(str(gCreator))
-                                ret_ += "\n┣═Jumlah Member : {}".format(str(len(group.members)))
-                                ret_ += "\n┣═Jumlah Pending : {}".format(gPending)
-                                ret_ += "\n┣═━Kode Qr/Link━━"
-                                ret_ += "\n┣═Group Ticket : {}".format(gTicket)
-                                ret_ += "\n┣═Group Qr : {}".format(gQr)
-                                ret_ += "\n╰━══[SELFBOT-BY:MAX]"
+                                ret_ = "╭━━[ Group Info ]━"
+                                ret_ += "\n│😈│Nama Group : {}".format(str(group.name))
+                                ret_ += "\n│😈│ID Group : {}".format(group.id)
+                                ret_ += "\n│😈│Pembuat : {}".format(str(gCreator))
+                                ret_ += "\n│😈│Jumlah Member : {}".format(str(len(group.members)))
+                                ret_ += "\n│😈│Jumlah Pending : {}".format(gPending)
+                                ret_ += "\n│😈│Kode Qr/Link━━"
+                                ret_ += "\n│😈│Group Ticket : {}".format(gTicket)
+                                ret_ += "\n│😈│Group Qr : {}".format(gQr)
+                                ret_ += "\n╰━━[SELFBOT-BY:MAX]"
                                 me.sendImageWithURL(R, path)
                                 me.sendMessage(R, str(ret_))
                         if PrankBotsData == Abouts["41"]:
@@ -911,13 +911,13 @@ def bot(op):
                           try:                          	
                               for mentionMembers in range(Dmem+1):
                                   no = 0
-                                  ret_ = "\n╔══════════════"
+                                  ret_ = "\n╭──────────"
                                   dataMid = []
                                   for dataMention in group.members[mentionMembers*20 : (mentionMembers+1)*20]:
                                       dataMid.append(dataMention.mid)
                                       no += 1
-                                      ret_ += "\n╠. @!".format(str(no))
-                                  ret_ += "\n╚══════════════".format(str(len(dataMid)))
+                                      ret_ += "\n│• @!".format(str(no))
+                                  ret_ += "\n╰──────────".format(str(len(dataMid)))
                                   sendMeention(R, ret_, dataMid)
                           except Exception as Ewe:
                               print(Ewe)
