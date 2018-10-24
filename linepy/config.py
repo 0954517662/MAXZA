@@ -32,7 +32,7 @@ class Config(object):
     APP_TYPE    = Ap_Header
     APP_VER     = Ap_Version
     CARRIER     = '51089, 1-0'
-    SYSTEM_NAME = 'PrankBots'
+    SYSTEM_NAME = 'SELFBOT-BY:MAX'
     SYSTEM_VER  = '8.22.17'
     IP_ADDR     = '8.8.8.8'
     EMAIL_REGEX = re.compile(r"[^@]+@[^@]+\.[^@]+")
