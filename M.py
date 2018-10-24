@@ -102,7 +102,7 @@ def Run_Xp():
     backupData()
     python = sys.executable
     os.execl(python, python, *sys.argv)
-Devert = "My name is "+cont.displayName+"\nMy git your bots"
+Devert = "สวัสดี ฉันชื่อ "+cont.displayName+"\nฉันได้ติดตามคุณทาง Github"
 def Run_Xx():
     print ("BOT KEMBALI AKTIF")
     backupData()
@@ -110,7 +110,7 @@ def Run_Xx():
     os.execl(python, python, *sys.argv)
 mulai = time.time()
 def Musik(to):
-    contentMetadata={'previewUrl': "http://dl.profile.line-cdn.net/"+me.getContact(meM).picturePath, 'i-installUrl': 'http://itunes.apple.com/app/linemusic/id966142320', 'type': 'mt', 'subText': me.getContact(meM).statusMessage if me.getContact(meM).statusMessage != '' else 'creator By meMots |ID LINE|\nadiputra.95', 'a-installUrl': 'market://details?id=jp.linecorp.linemusic.android', 'a-packageName': 'jp.linecorp.linemusic.android', 'countryCode': 'JP', 'a-linkUri': 'linemusic://open?target=track&item=mb00000000016197ea&subitem=mt000000000d69e2db&cc=JP&from=lc&v=1', 'i-linkUri': 'linemusic://open?target=track&item=mb00000000016197ea&subitem=mt000000000d69e2db&cc=JP&from=lc&v=1', 'text': me.getContact(meM).displayName, 'id': 'mt000000000d69e2db', 'linkUri': 'https://music.me.me/launch?target=track&item=mb00000000016197ea&subitem=mt000000000d69e2db&cc=JP&from=lc&v=1','MSG_SENDER_ICON': "https://os.me.naver.jp/os/p/"+meM,'MSG_SENDER_NAME':  me.getContact(meM).displayName,}
+    contentMetadata={'previewUrl': "http://dl.profile.line-cdn.net/"+me.getContact(meM).picturePath, 'i-installUrl': 'http://itunes.apple.com/app/linemusic/id966142320', 'type': 'mt', 'subText': me.getContact(meM).statusMessage if me.getContact(meM).statusMessage != '' else 'creator By SELFBOT-BY:MAX |ID LINE|\nmax_pv', 'a-installUrl': 'market://details?id=jp.linecorp.linemusic.android', 'a-packageName': 'jp.linecorp.linemusic.android', 'countryCode': 'JP', 'a-linkUri': 'linemusic://open?target=track&item=mb00000000016197ea&subitem=mt000000000d69e2db&cc=JP&from=lc&v=1', 'i-linkUri': 'linemusic://open?target=track&item=mb00000000016197ea&subitem=mt000000000d69e2db&cc=JP&from=lc&v=1', 'text': me.getContact(meM).displayName, 'id': 'mt000000000d69e2db', 'linkUri': 'https://music.me.me/launch?target=track&item=mb00000000016197ea&subitem=mt000000000d69e2db&cc=JP&from=lc&v=1','MSG_SENDER_ICON': "https://os.me.naver.jp/os/p/"+meM,'MSG_SENDER_NAME':  me.getContact(meM).displayName,}
     return me.sendMessage(to, me.getContact(meM).displayName, contentMetadata, 19)
 def ErrorX(text):
     me.log("data: " + str(text))
@@ -120,7 +120,7 @@ def ErrorX(text):
 def sendMeention(to, text="", mids=[]):
     arrData = ""
     arr = []
-    mention = "@PrankBots "
+    mention = "@SELFBOT-BY:MAX "
     if mids == []:
         raise Exception("Invalid mids")
     if "@!" in text:
@@ -262,32 +262,32 @@ def bot(op):
                             Res+= Stiles+"5. "+OperPrankBotsData+Abouts["5"]+"\n"
                             Res+= Stiles+"6. "+OperPrankBotsData+Abouts["6"]+"\n"
                             Res+= Stiles+"7. "+OperPrankBotsData+Abouts["7"]+"\n"
-                            Res+= Stiles+"8. "+OperPrankBotsData+Abouts["8"]+" *porn\n"
-                            Res+= Stiles+"9. "+OperPrankBotsData+Abouts["9"]+" *judul\n"
-                            Res+= Stiles+"10. "+OperPrankBotsData+Abouts["10"]+" *tags\n"
+                            Res+= Stiles+"8. "+OperPrankBotsData+Abouts["8"]+" *ชื่อหนังโป๊\n"
+                            Res+= Stiles+"9. "+OperPrankBotsData+Abouts["9"]+" *ชื่อหนัง\n"
+                            Res+= Stiles+"10. "+OperPrankBotsData+Abouts["10"]+" *แทค\n"
                             Res+= Stiles+"11. "+OperPrankBotsData+Abouts["11"]+"\n"
                             Res+= Stiles+"12. "+OperPrankBotsData+Abouts["12"]+" *txt/txt/txt\n"
-                            Res+= Stiles+"13. "+OperPrankBotsData+Abouts["13"]+" *text\n"
+                            Res+= Stiles+"13. "+OperPrankBotsData+Abouts["13"]+" *ข้อความ\n"
                             Res+= Stiles+"14. "+OperPrankBotsData+Abouts["14"]+"\n"
                             Res+= Stiles+"15. "+OperPrankBotsData+Abouts["15"]+"\n"
                             Res+= Stiles+"16. "+OperPrankBotsData+Abouts["16"]+"\n"
                             Res+= Stiles+"17. "+OperPrankBotsData+Abouts["17"]+"\n"
                             Res+= Stiles+"18. "+OperPrankBotsData+Abouts["18"]+"\n"
-                            Res+= Stiles+"19. "+OperPrankBotsData+Abouts["19"]+" *tags\n"
-                            Res+= Stiles+"20. "+OperPrankBotsData+Abouts["20"]+" *tags\n"
-                            Res+= Stiles+"21. "+OperPrankBotsData+Abouts["21"]+" *tags\n"
-                            Res+= Stiles+"22. "+OperPrankBotsData+Abouts["22"]+" *tags\n"
-                            Res+= Stiles+"23. "+OperPrankBotsData+Abouts["23"]+" *tags\n"
-                            Res+= Stiles+"24. "+OperPrankBotsData+Abouts["24"]+" *tags\n"
-                            Res+= Stiles+"25. "+OperPrankBotsData+Abouts["25"]+" *text\n"
+                            Res+= Stiles+"19. "+OperPrankBotsData+Abouts["19"]+" *แทค\n"
+                            Res+= Stiles+"20. "+OperPrankBotsData+Abouts["20"]+" *แทค\n"
+                            Res+= Stiles+"21. "+OperPrankBotsData+Abouts["21"]+" *แทค\n"
+                            Res+= Stiles+"22. "+OperPrankBotsData+Abouts["22"]+" *แทค\n"
+                            Res+= Stiles+"23. "+OperPrankBotsData+Abouts["23"]+" *แทค\n"
+                            Res+= Stiles+"24. "+OperPrankBotsData+Abouts["24"]+" *แทค\n"
+                            Res+= Stiles+"25. "+OperPrankBotsData+Abouts["25"]+" *ข้อความ\n"
                             Res+= Stiles+"26. "+OperPrankBotsData+Abouts["26"]+" *01-02-1995\n"
                             Res+= Stiles+"27. "+OperPrankBotsData+Abouts["27"]+" *id ig\n"
                             Res+= Stiles+"28. "+OperPrankBotsData+Abouts["28"]+" *id smule\n"
                             Res+= Stiles+"29. "+OperPrankBotsData+Abouts["29"]+"\n"
-                            Res+= Stiles+"30. "+OperPrankBotsData+Abouts["30"]+" *text\n"
-                            Res+= Stiles+"31. "+OperPrankBotsData+Abouts["31"]+" *text\n"
+                            Res+= Stiles+"30. "+OperPrankBotsData+Abouts["30"]+" *ข้อความ\n"
+                            Res+= Stiles+"31. "+OperPrankBotsData+Abouts["31"]+" *ข้อความ\n"
                             Res+= Stiles+"32. "+OperPrankBotsData+Abouts["32"]+"\n"
-                            Res+= Stiles+"33. "+OperPrankBotsData+Abouts["33"]+" *text\n"
+                            Res+= Stiles+"33. "+OperPrankBotsData+Abouts["33"]+" *ข้อความ\n"
                             Res+= Stiles+"34. "+OperPrankBotsData+Abouts["34"]+"\n"
                             Res+= Stiles+"35. "+OperPrankBotsData+Abouts["35"]+"\n"
                             Res+= Stiles+"36. "+OperPrankBotsData+Abouts["36"]+"\n"
@@ -369,7 +369,7 @@ def bot(op):
                           if D in Owner or D in meM:
                             result = requests.get("http://jadwalnonton.com/")
                             data = BeautifulSoup(result.content, 'html5lib')
-                            hasil = "_______CINEMA______\nType : Movie List Today\n"
+                            hasil = "▬▬▬CINEMA▬▬▬\nType : Movie List Today\n"
                             no = 1
                             for dzin in data.findAll('div', attrs={'class':'col-xs-6 moside'}):
                                 hasil += "\n\n{}. {}".format(str(no), str(dzin.find('h2').text))
@@ -384,7 +384,7 @@ def bot(op):
                                 data = r.text
                                 data = json.loads(data)
                                 img = data["img"]
-                                me.sendMessage(R,"━═| Daftar cakcak |═━\n━═| Title: %s\n━═| Link: %s\n━═| Id: %s\n━═| Votes: %s\n━═| NSFW: %s\n━═| [ Finish ] |═━" %(str(data["title"].replace('FACEBOOK Comments', ' ')), str(data["url"]), str(data["id"]), str(data["votes"]), str(data["nsfw"])))
+                                me.sendMessage(R,"-▬[ Daftar cakcak ]▬-\n-▬[ Title: %s\n-▬[ Link: %s\n-▬[ Id: %s\n-▬[ Votes: %s\n-▬[ NSFW: %s\n-▬[ Finish ]▬-" %(str(data["title"].replace('FACEBOOK Comments', ' ')), str(data["url"]), str(data["id"]), str(data["votes"]), str(data["nsfw"])))
                         if PrankBotsData.startswith(Abouts["8"]):
                           if D in Owner or D in meM:
                             separate = text.split(" ")
