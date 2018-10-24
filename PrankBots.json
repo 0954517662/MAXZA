@@ -5,7 +5,7 @@
     "Conection": null,
     "Add": false,
     "Join": true,
-    "Wc": false,
+    "Wc": true,
     "Shared": false,
     "Respon": true,
     "Read": false,
